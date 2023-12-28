@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4 url('QW.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#tours {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 1.0em; 
+}
+
+.tour {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.tour:hover {
+    transform: scale(-4px);
+}
+
+.tour img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+.tour-info {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 3em;
+}
+
+h3 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+strong {
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius:  15px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.additional-link {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px; 
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px; 
+    transition: background-color 0.3s;
+}
+
+.additional-link:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,56 @@
+body {
+    background-image: url('TR.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.tour {
+    display: flex;
+    border: none; /* або border: 0; */
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tour img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+}
+
+.tour-info {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.tour h3 {
+    margin-top: 0;
+}
+
+.tour p {
+    margin-bottom: 10px;
+}
+
+.tour a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
